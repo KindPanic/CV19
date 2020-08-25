@@ -47,6 +47,7 @@ namespace CV19.ViewModels
 
 
         #endregion
+
         public MainWindowViewModel()
         {
             #region Команды
