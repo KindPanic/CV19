@@ -16,6 +16,21 @@ namespace CV19.ViewModels
     {
         public ObservableCollection<Group> Groups { get; }
 
+        #region Выбранная группа
+        /// <summary>
+        /// Выбранная группа
+        /// </summary>
+        private Group _SelectedGroup;
+        public Group SelectedGroup
+        {
+            get => _SelectedGroup;
+            set => Set(ref _SelectedGroup, value);
+        }
+
+
+        #endregion
+
+
 
         #region DataPoint
 
